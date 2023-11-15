@@ -12,10 +12,10 @@ module.exports = {
 		console.log(`${interaction.user.username}, ha solicitado informacion acerca de /testcmd\n`)
 
 		const EBContent = new EmbedBuilder()
-			.setColor('#df740f')
+			.setColor('#7a3b9b')
 			.setTitle('Client Information - Pawn')
 			.setDescription('## :flag_es: - Español\n\nA Continuacion encontraras informacion acerca de los comandos integrados en el\nCliente de SAMP, puedes seleccionar diferentes opciones, las cuales te mostraran informacion\nacerca de este.\n\n## :flag_us: - English.\n\nBelow you will find information about the commands integrated into the\nSAMP Client, you can select different options, which will show you information\nabout it.')
-			.setFooter({ text: 'Administracion de PawnCode - SAMP', iconURL: 'https://i.imgur.com/IWhvfck.png' })
+			.setFooter({ text: 'PawnCode Community - SA-OP:MP', iconURL: 'https://assets.open.mp/assets/images/assets/logo-dark-trans.png' })
 
 		const MainOpts = new StringSelectMenuBuilder()
 			.setCustomId('clientcommand')
