@@ -1,0 +1,3 @@
+[submodule "vendor/openmp_web"]
+	path = vendor/openmp_web
+	url = https://github.com/openmultiplayer/web
