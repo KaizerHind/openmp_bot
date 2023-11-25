@@ -1,0 +1,29 @@
+{
+  "name": "openmp_bot",
+  "version": "1.0.0",
+  "description": "This is a bot that brings the wiki from the open.mp website to be easily and quickly consumed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaizerHind/openmp_bot.git"
+  },
+  "keywords": [
+    "bot",
+    "discord"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaizerHind/openmp_bot/issues"
+  },
+  "homepage": "https://github.com/KaizerHind/openmp_bot#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "moment": "^2.29.4"
+  }
+}
