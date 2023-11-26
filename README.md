@@ -5,7 +5,7 @@ No official BOT.
 $ git clone --recurse-submodules https://github.com/KaizerHind/openmp_bot.git
 ```
 
-If you already cloned the project and forgot --recurse-submodules, you can use the next command:
+If you already cloned the project and forgo you can use the next command:
 ```bash
 cd vendor
 git submodule update --init
