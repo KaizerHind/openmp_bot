@@ -39,7 +39,6 @@ const rest = new REST({ version: "10" }).setToken(process.env.TOKEN);
 
 // Deploy commands
 client.on("ready", () => {
-    client.guilds.cache.forEach(guild => console.log(guild))
     try {
         console.log(
             `Started refreshing ${commands.length} application (/) commands.`
@@ -56,6 +55,7 @@ client.on("ready", () => {
                 `Successfully reloaded ${data.length} application (/) commands.`
             );
         });
+        client.destroy()
     } catch (error) {
         console.error(error);
     }
